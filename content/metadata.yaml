@@ -1,26 +1,12 @@
 ---
-title: "Manuscript Title"
+title: "Pore in Concrete-Group8"
 keywords:
-  - markdown
-  - publishing
-  - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: hosseinkabiruiuc
+    name: Hossein Kabir
+    initials: HK
+    orcid: 0000-0002-2222-6188
+    email: hossein.kabir@outlook.com
     affiliations:
-      - Department of Something, University of Whatever
-    funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - Department of Civil Engineering, University of Illinois
