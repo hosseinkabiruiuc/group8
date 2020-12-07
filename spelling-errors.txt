@@ -9,7 +9,7 @@ johndoe
 Kabir
 MIP
 physicochemical
-Porosimeter
+porosimeter
 porosities
 pre
 Qadri
