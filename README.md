@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/hosseinkabiruiuc/group8/tree/gh-pages) branch hosts the contents of this directory at <https://hosseinkabiruiuc.github.io/group8/>.
-The permalink for this webpage version is <https://hosseinkabiruiuc.github.io/group8/v/bc41691dff4f7f5b473b28636731367c78adfa2e/>.
+The permalink for this webpage version is <https://hosseinkabiruiuc.github.io/group8/v/12297bbffdcebb18db503dc5e4bce72bbc91a9b0/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://hosseinkabiruiuc.github.io/group8/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`bc41691dff4f7f5b473b28636731367c78adfa2e`](https://github.com/hosseinkabiruiuc/group8/commit/bc41691dff4f7f5b473b28636731367c78adfa2e).
+[`12297bbffdcebb18db503dc5e4bce72bbc91a9b0`](https://github.com/hosseinkabiruiuc/group8/commit/12297bbffdcebb18db503dc5e4bce72bbc91a9b0).
