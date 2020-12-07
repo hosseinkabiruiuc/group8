@@ -3,11 +3,10 @@ Convolutional
 EDA
 grayscale
 Hossein
+hosseinkabiruiuc
 Hu
 Iiyoshi
 ImageJ
-janeroe
-johndoe
 Kabir
 Micromechanical
 Microstructural
@@ -25,6 +24,4 @@ sulfoaluminate
 Takashimizu
 Tianshu
 Xiao
-XXXX
-XXXXXXXX
 Zhang

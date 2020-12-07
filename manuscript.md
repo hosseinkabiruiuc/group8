@@ -1,7 +1,6 @@
 ---
 author-meta:
-- John Doe
-- Jane Roe
+- Hossein Kabir
 bibliography:
 - content/manual-references.json
 date-meta: '2020-12-07'
@@ -15,13 +14,13 @@ header-includes: '<!--
 
   <meta name="dc.format" content="text/html" />
 
-  <meta name="dc.title" content="Manuscript Title" />
+  <meta name="dc.title" content="Pore in Concrete-Group8" />
 
-  <meta name="citation_title" content="Manuscript Title" />
+  <meta name="citation_title" content="Pore in Concrete-Group8" />
 
-  <meta property="og:title" content="Manuscript Title" />
+  <meta property="og:title" content="Pore in Concrete-Group8" />
 
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta property="twitter:title" content="Pore in Concrete-Group8" />
 
   <meta name="dc.date" content="2020-12-07" />
 
@@ -39,21 +38,11 @@ header-includes: '<!--
 
   <meta name="citation_technical_report_institution" content="Manubot" />
 
-  <meta name="citation_author" content="John Doe" />
+  <meta name="citation_author" content="Hossein Kabir" />
 
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author_institution" content="Department of Civil Engineering, University of Illinois" />
 
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
-  <meta name="twitter:creator" content="@johndoe" />
-
-  <meta name="citation_author" content="Jane Roe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author_orcid" content="0000-0002-2222-6188" />
 
   <link rel="canonical" href="https://hosseinkabiruiuc.github.io/group8/" />
 
@@ -67,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/63c0504ca1b5dc9e86fb0df7564a2fb09333cd00/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/6ed0a128796bf6e44a12c1f2566142879eb34f71/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/63c0504ca1b5dc9e86fb0df7564a2fb09333cd00/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/6ed0a128796bf6e44a12c1f2566142879eb34f71/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/63c0504ca1b5dc9e86fb0df7564a2fb09333cd00/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/6ed0a128796bf6e44a12c1f2566142879eb34f71/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -84,16 +73,13 @@ header-includes: '<!--
   <meta name="theme-color" content="#ad1457" />
 
   <!-- end Manubot generated metadata -->'
-keywords:
-- markdown
-- publishing
-- manubot
+keywords: null
 lang: en-US
 manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Pore in Concrete-Group8
 ...
 
 
@@ -103,9 +89,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/63c0504ca1b5dc9e86fb0df7564a2fb09333cd00/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/6ed0a128796bf6e44a12c1f2566142879eb34f71/))
 was automatically generated
-from [hosseinkabiruiuc/group8@63c0504](https://github.com/hosseinkabiruiuc/group8/tree/63c0504ca1b5dc9e86fb0df7564a2fb09333cd00)
+from [hosseinkabiruiuc/group8@6ed0a12](https://github.com/hosseinkabiruiuc/group8/tree/6ed0a128796bf6e44a12c1f2566142879eb34f71)
 on December 7, 2020.
 </em></small>
 
@@ -113,25 +99,13 @@ on December 7, 2020.
 
 
 
-+ **John Doe**<br>
++ **Hossein Kabir**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0002-2222-6188](https://orcid.org/0000-0002-2222-6188)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [hosseinkabiruiuc](https://github.com/hosseinkabiruiuc)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe](https://github.com/janeroe)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     Department of Civil Engineering, University of Illinois
   </small>
 
 
