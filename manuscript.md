@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/eb48c55918d685a31f7750953fc74da450a0c6cc/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/773fe4522f75a35b24e066323f205b7b4f01d0e9/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/eb48c55918d685a31f7750953fc74da450a0c6cc/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/773fe4522f75a35b24e066323f205b7b4f01d0e9/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/eb48c55918d685a31f7750953fc74da450a0c6cc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/773fe4522f75a35b24e066323f205b7b4f01d0e9/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/eb48c55918d685a31f7750953fc74da450a0c6cc/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/773fe4522f75a35b24e066323f205b7b4f01d0e9/))
 was automatically generated
-from [hosseinkabiruiuc/group8@eb48c55](https://github.com/hosseinkabiruiuc/group8/tree/eb48c55918d685a31f7750953fc74da450a0c6cc)
+from [hosseinkabiruiuc/group8@773fe45](https://github.com/hosseinkabiruiuc/group8/tree/773fe4522f75a35b24e066323f205b7b4f01d0e9)
 on December 7, 2020.
 </em></small>
 
