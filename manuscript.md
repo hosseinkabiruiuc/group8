@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/0af065e57266fe2947001a5c6c7bed02667c4a57/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/c7ba499497a51650bc23e74d28b1eb7fcc5001c0/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/0af065e57266fe2947001a5c6c7bed02667c4a57/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/c7ba499497a51650bc23e74d28b1eb7fcc5001c0/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/0af065e57266fe2947001a5c6c7bed02667c4a57/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/c7ba499497a51650bc23e74d28b1eb7fcc5001c0/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -89,9 +89,9 @@ title: Pore in Concrete-Group8
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/0af065e57266fe2947001a5c6c7bed02667c4a57/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/c7ba499497a51650bc23e74d28b1eb7fcc5001c0/))
 was automatically generated
-from [hosseinkabiruiuc/group8@0af065e](https://github.com/hosseinkabiruiuc/group8/tree/0af065e57266fe2947001a5c6c7bed02667c4a57)
+from [hosseinkabiruiuc/group8@c7ba499](https://github.com/hosseinkabiruiuc/group8/tree/c7ba499497a51650bc23e74d28b1eb7fcc5001c0)
 on December 7, 2020.
 </em></small>
 
