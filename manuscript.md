@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/61c32f8649547e136750f310907fa56367873012/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/fc0405cceac7c00b57a0cfd0c736c31fc276bbe3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/61c32f8649547e136750f310907fa56367873012/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/fc0405cceac7c00b57a0cfd0c736c31fc276bbe3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/61c32f8649547e136750f310907fa56367873012/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/fc0405cceac7c00b57a0cfd0c736c31fc276bbe3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -89,9 +89,9 @@ title: Pore in Concrete-Group8
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/61c32f8649547e136750f310907fa56367873012/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/fc0405cceac7c00b57a0cfd0c736c31fc276bbe3/))
 was automatically generated
-from [hosseinkabiruiuc/group8@61c32f8](https://github.com/hosseinkabiruiuc/group8/tree/61c32f8649547e136750f310907fa56367873012)
+from [hosseinkabiruiuc/group8@fc0405c](https://github.com/hosseinkabiruiuc/group8/tree/fc0405cceac7c00b57a0cfd0c736c31fc276bbe3)
 on December 8, 2020.
 </em></small>
 
@@ -417,6 +417,10 @@ Based on the present machine learning analysis, the following conclusions could 
 * Although the number of input data was limited to 200 SEM images, decent accuracy was achieved using both ANN and CNN. Therefore, a limited number of input data (which is dictated by the difficulty and high cost of imaging) may have little impact on the robustness of both ANN and CNN.
 
 The built models in this project are only the base for further works in the future. These models will be developed further to solve real problems in the infrastructure field. Other information in conjunction with porosity labels will be collected such as freezing and thawing resistance, scaling, thermal cracking and other durability issues. Then, based on these information, a model will be able to predict the remaining service life and the physicochemical properties based on the pore structure characteristics (porosity, tortuosity, connectivity, and pore size distribution), and the chemical compositions within the cement matrix as well. However, it is willing that model will be able to suggest early solutions to rehabilitate infrastructure and prevent further deterioration, which in turn saves money.
+
+
+## Acknowledgements
+The authors would like to acknowledge partial support from University of Illinois Material Research Laboratory (MRL).
 
 
 ## References

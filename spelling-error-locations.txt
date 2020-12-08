@@ -209,6 +209,8 @@ content/05.Conclusions.md:8:SEM
 content/05.Conclusions.md:9:SEM
 content/05.Conclusions.md:11:physicochemical
 content/05.Conclusions.md:11:tortuosity
+content/06.Acknowledgements.md:1:Acknowledgements
+content/06.Acknowledgements.md:2:MRL
 content/90.back-matter.md:3:Microstructural
 content/90.back-matter.md:3:Nedunuri
 content/90.back-matter.md:3:pozzolanic

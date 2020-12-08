@@ -1,3 +1,4 @@
+Acknowledgements
 acuuracy
 anticorrelated
 Appllication
@@ -24,7 +25,7 @@ estimatetion
 faciliate
 freezed
 grayscale
-Greyscale
+greyscale
 Hossein
 hosseinkabiruiuc
 Hu
@@ -44,12 +45,13 @@ Micromechanical
 Microstructural
 microstructure
 MIP
+MRL
 nano
 Nedunuri
 overfitting
 physicochemical
 physiochemical
-porosimeter
+Porosimeter
 porosites
 porosities
 porotity
