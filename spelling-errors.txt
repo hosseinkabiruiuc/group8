@@ -22,7 +22,7 @@ enahnce
 estimatetion
 faciliate
 freezed
-grayscale
+Grayscale
 Greyscale
 Hossein
 Hu

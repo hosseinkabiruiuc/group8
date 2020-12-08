@@ -37,11 +37,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/455745299a9e9e2416a861875a779a02b5697764/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/4c4760140656c023c07d7ee2e462aa2ed44acee2/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/455745299a9e9e2416a861875a779a02b5697764/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/4c4760140656c023c07d7ee2e462aa2ed44acee2/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/455745299a9e9e2416a861875a779a02b5697764/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/4c4760140656c023c07d7ee2e462aa2ed44acee2/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -67,9 +67,9 @@ manubot-requests-cache-path: ci/cache/requests-cache
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/455745299a9e9e2416a861875a779a02b5697764/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/4c4760140656c023c07d7ee2e462aa2ed44acee2/))
 was automatically generated
-from [hosseinkabiruiuc/group8@4557452](https://github.com/hosseinkabiruiuc/group8/tree/455745299a9e9e2416a861875a779a02b5697764)
+from [hosseinkabiruiuc/group8@4c47601](https://github.com/hosseinkabiruiuc/group8/tree/4c4760140656c023c07d7ee2e462aa2ed44acee2)
 on December 8, 2020.
 </em></small>
 
@@ -379,7 +379,7 @@ CNN model was build using the 200 imges from the training dataset and applied to
 It could be seen that both the accuracy and loss values for training and testing datasets are approching to each other. This confirms the validity of the model. However, the accuracy values are not very high, this is expected due to having a very limited number of images.
 
 
-## Conclusions 
+# 4. Conclusions 
 
 Based on the present machine learning analysis, the following conclusions could be drawn: 
 
