@@ -3,7 +3,7 @@ author-meta:
 - Hossein Kabir
 bibliography:
 - content/manual-references.json
-date-meta: '2020-12-07'
+date-meta: '2020-12-08'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -22,9 +22,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Pore in Concrete-Group8" />
 
-  <meta name="dc.date" content="2020-12-07" />
+  <meta name="dc.date" content="2020-12-08" />
 
-  <meta name="citation_publication_date" content="2020-12-07" />
+  <meta name="citation_publication_date" content="2020-12-08" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/d96ee521b7526d7e54f747023b0ce14596dfa93c/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/372a1ab667bedec070de1c2b1159b9cc2fd697ab/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/d96ee521b7526d7e54f747023b0ce14596dfa93c/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/372a1ab667bedec070de1c2b1159b9cc2fd697ab/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/d96ee521b7526d7e54f747023b0ce14596dfa93c/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/372a1ab667bedec070de1c2b1159b9cc2fd697ab/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -89,10 +89,10 @@ title: Pore in Concrete-Group8
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/d96ee521b7526d7e54f747023b0ce14596dfa93c/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/372a1ab667bedec070de1c2b1159b9cc2fd697ab/))
 was automatically generated
-from [hosseinkabiruiuc/group8@d96ee52](https://github.com/hosseinkabiruiuc/group8/tree/d96ee521b7526d7e54f747023b0ce14596dfa93c)
-on December 7, 2020.
+from [hosseinkabiruiuc/group8@372a1ab](https://github.com/hosseinkabiruiuc/group8/tree/372a1ab667bedec070de1c2b1159b9cc2fd697ab)
+on December 8, 2020.
 </em></small>
 
 ## Authors
@@ -125,6 +125,17 @@ This research investigates applicability of image-based analysis to quantify and
 #### Keywords: 
 Scanning Electron Microscopy (SEM), Mercury Intrusion Porosimeter (MIP), Artificial Neural Network (ANN), Convolutional Neural Network (CNN), Exploratory Data Analysis (EDA), porosity
 
+
+
+# Introduction
+
+ Durability of concrete structures against gradual ingress of deleterious liquids is mainly controlled by porosity and pore structure of cement paste matrix [1]. Pore structure is mainly divided into two main categories: capillary and gel pores and they range from few millimeters into few nano-meters having 70-90% of total porosity in the nano scale. There are multiple factors that affect general properties of capillary pore structure in concrete, which include curing regimes, cementitious materials contents, and water-to-cementitious materials ratios [1-2]. Therefore, it is necessary to precisely measure and characterize pore structure in concrete to determine the optimum concrete curing conditions and mix proportions. 
+ 
+ Over the past few decades, mercury intrusion porosimeter (MIP) test has been used to measure porosity and pore size distribution in cement-based composites. In this method, using relatively high pressure, mercury is injected into the pore spaces of the matrix to determine porosity and its structure. MIP test, with an ability to measure pore sizes in the range of 0.006–500 µm, is typically performed on a small oven-dried cement-composite specimen and mercury is gradually applied on the desired surface [1]. However, it has been reported that, cement matrix surface tension as well as mercury contact angle with cement pore wall affects the accuracy of MIP measurements [3]. Moreover, MIP needs speciemn preparation; it is hard to conduct; and it is deemed a destructive test in such it damages weak microstructure due to the applied high pressure.
+
+To address the uncertainty of MIP results, image analysis method is recently developed to directly measure paste matrix porosity. Backscattered scanning electron microscopy (SEM) images of polished impregnated epoxy concrete surface is captured and analyzed using ImageJ commercial software [1]. To go further, ImageJ software quantifies the total area of pores using a grayscale thresholded image. However, this commercial software solely provides total porosity of the matrix and lacks the ability to characterize porosity [1]. In addition, comparing the total porosity of paste matrices measured by MIP method with that measured by ImageJ revealed that porosity is underestimated in the former technique. In fact, in contrary to MIP, Image analysis is capable of measuring both connected and disconnected capillary pores, and hence gives a more realistic picture of the paste matrix pore system [1]. Also, SEM technique is easy to conduct since it does not need and specimen preparation, but costs a lot of money.
+
+As a result, it is required to develop an image analysis-based technique to not only determine total porosity, but also characterize the pore structure, such as shape, size, and angularity of the pore system. For this reason, robust codes are written in python to read and analyze greyscale thresholded 200 SEM images. The present analysis is calibrated by matching average porosity found by python-based image analysis with that of ImageJ software. The calibrated model is then used to read images to find pore size distribution of the matrix. In the next step, chemistry of hydrates and angularity of pores are estimated to be used as features for the employed machine learning algorithms. Results of the present analysis revealed that ANN is a robust technique being capable of correlating pore volume fraction with angularity of pores, as well as chemistry of hydrates. In addition, porosities are classified into different categories using an optimized CNN. The relatively low Root Mean Squared Error (RSME) values of the two machine learning techniques, i.e. ANN and CNN, proposes the robustness of the present methodology over MIP for characterizing porosity in cement paste matrix. 
 
 
 ## References
