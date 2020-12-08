@@ -51,7 +51,7 @@ physicochemical
 physiochemical
 porosimeter
 porosites
-Porosities
+porosities
 porotity
 Portlandite
 pozzolanic

@@ -37,11 +37,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/ad2435e554aaae9dadac7124ed2feddcb74781bc/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/0964f225918a1509b7562a69664d62ea5bfff23c/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/ad2435e554aaae9dadac7124ed2feddcb74781bc/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/0964f225918a1509b7562a69664d62ea5bfff23c/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/ad2435e554aaae9dadac7124ed2feddcb74781bc/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/0964f225918a1509b7562a69664d62ea5bfff23c/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -67,9 +67,9 @@ manubot-requests-cache-path: ci/cache/requests-cache
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/ad2435e554aaae9dadac7124ed2feddcb74781bc/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/0964f225918a1509b7562a69664d62ea5bfff23c/))
 was automatically generated
-from [hosseinkabiruiuc/group8@ad2435e](https://github.com/hosseinkabiruiuc/group8/tree/ad2435e554aaae9dadac7124ed2feddcb74781bc)
+from [hosseinkabiruiuc/group8@0964f22](https://github.com/hosseinkabiruiuc/group8/tree/0964f225918a1509b7562a69664d62ea5bfff23c)
 on December 8, 2020.
 </em></small>
 
@@ -98,7 +98,7 @@ Scanning Electron Microscopy (SEM), Mercury Intrusion Porosimeter (MIP), Artific
 
 
 
-# Introduction
+# 1. Introduction
 
  Durability of concrete structures against gradual ingress of deleterious liquids is mainly controlled by porosity and pore structure of cement paste matrix [1]. Pore structure is mainly divided into two main categories: capillary and gel pores and they range from few millimeters into few nano-meters having 70-90% of total porosity in the nano scale. There are multiple factors that affect general properties of capillary pore structure in concrete, which include curing regimes, cementitious materials contents, and water-to-cementitious materials ratios [1-2]. Therefore, it is necessary to precisely measure and characterize pore structure in concrete to determine the optimum concrete curing conditions and mix proportions. 
  
@@ -109,9 +109,9 @@ To address the uncertainty of MIP results, image analysis method is recently dev
 As a result, it is required to develop an image analysis-based technique to not only determine total porosity, but also characterize the pore structure, such as shape, size, and angularity of the pore system. For this reason, robust codes are written in python to read and analyze greyscale thresholded 200 SEM images. The present analysis is calibrated by matching average porosity found by python-based image analysis with that of ImageJ software. The calibrated model is then used to read images to find pore size distribution of the matrix. In the next step, chemistry of hydrates and angularity of pores are estimated to be used as features for the employed machine learning algorithms. Results of the present analysis revealed that ANN is a robust technique being capable of correlating pore volume fraction with angularity of pores, as well as chemistry of hydrates. In addition, porosities are classified into different categories using an optimized CNN. The relatively low Root Mean Squared Error (RSME) values of the two machine learning techniques, i.e. ANN and CNN, proposes the robustness of the present methodology over MIP for characterizing porosity in cement paste matrix. 
 
 
-# Methods:
+# 2. Methods:
 
-## Exploratory Data Analysis 
+## 2.1 Exploratory Data Analysis 
 
 Exploratory data analysis (EDA) is an important step conducted on any data analysis project for identification, characterization, and quantifiaction of different features. In this project, our input data consists of two columns, images (IDs) and their corresponding porosity, which were determined by ImageJ commercial software. Fig 1 shows porosities of five random images for each batch, with porosities variable from 0 to 100 percent.
 
@@ -143,7 +143,7 @@ As a result, Fig 5 shows a converted version of Fig 1 transformed from Viridis t
 
     Figure 5: transformation of input images from Viridis to Greyscale  
     
-### Model Caliberation
+## 2.2 Model Caliberation
     
 To quntify porosity and other characterestics of images, including chemistry and angularity of pores, it is a required task to caliberate the model. The input grayscale images are all having 256*196 pixels with grayscale thresholds ranging from 0 to 255; dark pixels represent pores, while pixels with higher thershold values represent cement hydrated or anhydrous products. To quantify pore volume fraction, different thresholds correspond to pores are chosen to determine the impact of threshold limit on the averge porosity (see Fig 6). Fig 6 illuminates the maximum thresholds for both batches (i.e. 14 and 9 for batches 1 and 2, respectively), which avoids overestimation of porosity in both batches. Almost 400 million pixels were analyzed to generate this figure.
 
@@ -153,23 +153,23 @@ To quntify porosity and other characterestics of images, including chemistry and
 
 Figs 7 and 8 represent the important role of assigning a correct threshold value for characterizing porosity. In other words, increasing the luminance (threshold) of images from a certain limit (i.e. i.e. 14 and 9 for batches 1 and 2, respectively) will result in the inclusion of dark hydration products (i.e. precialse or luminance), which has to be avoide. 
     
-<img src ="images/fig7.JPG" width =1100>    
+<img src ="images/fig7.JPG" width =800>    
 
     Figure 7: dependence of batch1 porosity on the assigned luminance 
 
-<img src ="images/fig8.JPG" width =1100> 
+<img src ="images/fig8.JPG" width =800> 
 
     Figure 8: dependence of batch1 porosity on the assigned luminance
 
 Therefore, luminance of images should be assigned carefully to realistically estimate porosity with minimum error. Fig 9 further illuminates dependence of image analysis on the assigned threshold. In this figure, the exact porosities of images found from ImageJ software are comapred with those estimated using EDA for both two batches. This comparison reveals that as long as the luminance is limited to 10, calculated porosities remain stable and accurate, while exceeding this limits results in over estimatetion of porosites. 
     
-<img src ="images/fig9.JPG" width =1100> 
+<img src ="images/fig9.JPG" width =800> 
 
     Figure 9: matching estimated porosities with exact porosities for different threshold limits
 
 Considering Fig 9, the threshold limit = 0 is finally chosen to accurately estimate the porosity of images. 
 
-### Chemical Analysis
+## 2.3 Chemical Analysis
 
 As previously mentioned, greyscale SEM images are required to be considered for chemical analysis. The following thresholds intervals are defined for each image to characterize different phases:
 
@@ -185,7 +185,7 @@ To determine the robustness of image-based chemical analysis, a random image fro
 
     Figure 10: chemical analysis of greyscale SEM images
     
-### Angularity of Capillary Pores
+## 2.4 Angularity of Capillary Pores
 
 In the next step, the shape of capillary pores is characterized using a terminology called angularity. For this purpose, a dimensionless formula is defined to calculate angularity based on the total perimeter and area of capillary pores of each figure:
 
@@ -204,7 +204,7 @@ Accordingly, it is required to calculate area and perimeter of capillary pores i
     Figure 12: estimating parameters of angularity 
     
     
-## Modeling
+## 2.5 Modeling
 
 The ANN models shown below explain how cement chemistry (model I) together with a combination of cement chemistry and pore physical shape (model II) could be used to estimate porosities, i.e. output, of testing batch 3 (Fig 13).
 
