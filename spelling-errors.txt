@@ -13,7 +13,7 @@ Microstructural
 MIP
 Nedunuri
 physicochemical
-porosimeter
+Porosimeter
 porosities
 pozzolanic
 pre
