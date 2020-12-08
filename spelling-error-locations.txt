@@ -203,6 +203,12 @@ content/04. Results_and_Discussion.md:127:datasets
 content/04. Results_and_Discussion.md:131:datasets
 content/04. Results_and_Discussion.md:133:approching
 content/04. Results_and_Discussion.md:133:datasets
+content/05.Conclusions.md:6:densification
+content/05.Conclusions.md:8:porosities
+content/05.Conclusions.md:8:SEM
+content/05.Conclusions.md:9:SEM
+content/05.Conclusions.md:11:physicochemical
+content/05.Conclusions.md:11:tortuosity
 content/90.back-matter.md:3:Microstructural
 content/90.back-matter.md:3:Nedunuri
 content/90.back-matter.md:3:pozzolanic

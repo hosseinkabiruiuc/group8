@@ -56,11 +56,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/f6bff703720abc144b948c1105b547842a194877/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/61c32f8649547e136750f310907fa56367873012/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/f6bff703720abc144b948c1105b547842a194877/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/61c32f8649547e136750f310907fa56367873012/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/f6bff703720abc144b948c1105b547842a194877/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/61c32f8649547e136750f310907fa56367873012/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -89,9 +89,9 @@ title: Pore in Concrete-Group8
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/f6bff703720abc144b948c1105b547842a194877/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/61c32f8649547e136750f310907fa56367873012/))
 was automatically generated
-from [hosseinkabiruiuc/group8@f6bff70](https://github.com/hosseinkabiruiuc/group8/tree/f6bff703720abc144b948c1105b547842a194877)
+from [hosseinkabiruiuc/group8@61c32f8](https://github.com/hosseinkabiruiuc/group8/tree/61c32f8649547e136750f310907fa56367873012)
 on December 8, 2020.
 </em></small>
 
@@ -404,6 +404,19 @@ CNN model was build using the 200 imges from the training dataset and applied to
     Figure 35: loss valeus for both training and testing datasets
 
 It could be seen that both the accuracy and loss values for training and testing datasets are approching to each other. This confirms the validity of the model. However, the accuracy values are not very high, this is expected due to having a very limited number of images.
+
+
+## Conclusions 
+
+Based on the present machine learning analysis, the following conclusions could be drawn: 
+
+* ANN was found to be capable of predicting porosity in cement paste matrix by leveraging chemistry of hydrates as well as angularity of pores. 
+* The results of ANN revealed that an increase in concentration of C-S-H gel and C-H in cement would probably enhance matrix densification, consequently reducing pore volume fraction locally.
+* By doing ANN, it was proved that chemistry of cement alone has the ability to predict porosity of cement with almost 80% accuracy. However, if the physical properties of pores, e.g. angularity, is coupled with cement chemistry, this accuracy would be reduced to 70%.
+* CNN is determined to be a powerful technique for classification of porosities based on their volume fraction in SEM images.
+* Although the number of input data was limited to 200 SEM images, decent accuracy was achieved using both ANN and CNN. Therefore, a limited number of input data (which is dictated by the difficulty and high cost of imaging) may have little impact on the robustness of both ANN and CNN.
+
+The built models in this project are only the base for further works in the future. These models will be developed further to solve real problems in the infrastructure field. Other information in conjunction with porosity labels will be collected such as freezing and thawing resistance, scaling, thermal cracking and other durability issues. Then, based on these information, a model will be able to predict the remaining service life and the physicochemical properties based on the pore structure characteristics (porosity, tortuosity, connectivity, and pore size distribution), and the chemical compositions within the cement matrix as well. However, it is willing that model will be able to suggest early solutions to rehabilitate infrastructure and prevent further deterioration, which in turn saves money.
 
 
 ## References

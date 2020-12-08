@@ -23,7 +23,7 @@ enahnce
 estimatetion
 faciliate
 freezed
-Grayscale
+grayscale
 Greyscale
 Hossein
 hosseinkabiruiuc
@@ -49,9 +49,9 @@ Nedunuri
 overfitting
 physicochemical
 physiochemical
-Porosimeter
+porosimeter
 porosites
-Porosities
+porosities
 porotity
 Portlandite
 pozzolanic
@@ -73,6 +73,7 @@ Takashimizu
 thershold
 thresholded
 Tianshu
+tortuosity
 valied
 Viridis
 Xiao
