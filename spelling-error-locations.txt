@@ -50,6 +50,159 @@ content/02.Introduction.md:9:porosities
 content/02.Introduction.md:9:RSME
 content/02.Introduction.md:9:SEM
 content/02.Introduction.md:9:thresholded
+content/03.Methods.md:5:EDA
+content/03.Methods.md:5:ImageJ
+content/03.Methods.md:5:porosities
+content/03.Methods.md:5:porosities
+content/03.Methods.md:5:quantifiaction
+content/03.Methods.md:9:EDA
+content/03.Methods.md:11:characterestics
+content/03.Methods.md:17:EDA
+content/03.Methods.md:17:enahnce
+content/03.Methods.md:17:Greyscale
+content/03.Methods.md:17:Greyscale
+content/03.Methods.md:17:identifiaction
+content/03.Methods.md:17:Viridis
+content/03.Methods.md:17:Viridis
+content/03.Methods.md:17:Viridis
+content/03.Methods.md:21:Greyscale
+content/03.Methods.md:21:Viridis
+content/03.Methods.md:23:faciliate
+content/03.Methods.md:23:Greyscale
+content/03.Methods.md:23:hydarted
+content/03.Methods.md:23:hydartes
+content/03.Methods.md:23:luminance
+content/03.Methods.md:27:greyscale
+content/03.Methods.md:27:identifiaction
+content/03.Methods.md:27:SEM
+content/03.Methods.md:29:EDA
+content/03.Methods.md:29:Greyscale
+content/03.Methods.md:29:Viridis
+content/03.Methods.md:33:Greyscale
+content/03.Methods.md:33:Viridis
+content/03.Methods.md:35:Caliberation
+content/03.Methods.md:37:averge
+content/03.Methods.md:37:caliberate
+content/03.Methods.md:37:characterestics
+content/03.Methods.md:37:grayscale
+content/03.Methods.md:37:grayscale
+content/03.Methods.md:37:quntify
+content/03.Methods.md:37:thershold
+content/03.Methods.md:43:avoide
+content/03.Methods.md:43:luminance
+content/03.Methods.md:43:luminance
+content/03.Methods.md:47:luminance
+content/03.Methods.md:51:luminance
+content/03.Methods.md:53:comapred
+content/03.Methods.md:53:EDA
+content/03.Methods.md:53:estimatetion
+content/03.Methods.md:53:ImageJ
+content/03.Methods.md:53:luminance
+content/03.Methods.md:53:luminance
+content/03.Methods.md:53:porosites
+content/03.Methods.md:53:porosities
+content/03.Methods.md:53:porosities
+content/03.Methods.md:57:porosities
+content/03.Methods.md:57:porosities
+content/03.Methods.md:63:greyscale
+content/03.Methods.md:63:SEM
+content/03.Methods.md:66:Sulphur
+content/03.Methods.md:75:greyscale
+content/03.Methods.md:75:SEM
+content/03.Methods.md:89:brucite
+content/03.Methods.md:89:luminance
+content/03.Methods.md:89:luminance
+content/03.Methods.md:98:porosities
+content/03.Methods.md:102:porosities
+content/03.Methods.md:105:datasets
+content/03.Methods.md:111:hyperparameters
+content/03.Methods.md:111:ReLU
+content/03.Methods.md:115:porosities
+content/03.Methods.md:118:Convolutional
+content/03.Methods.md:118:freezed
+content/03.Methods.md:118:imagenet
+content/03.Methods.md:118:preprocessed
+content/03.Methods.md:119:physiochemical
+content/03.Methods.md:119:specifing
+content/03.Methods.md:121:grayscale
+content/03.Methods.md:123:hyperparameters
+content/03.Methods.md:123:hyperparameters
+content/03.Methods.md:128:hyperparameters
+content/03.Methods.md:130:hyperparameters
+content/04. Results_and_Discussion.md:5:dataset
+content/04. Results_and_Discussion.md:5:EDA
+content/04. Results_and_Discussion.md:6:Grayscale
+content/04. Results_and_Discussion.md:7:baches
+content/04. Results_and_Discussion.md:10:greyscale
+content/04. Results_and_Discussion.md:14:grayscale
+content/04. Results_and_Discussion.md:14:grayscale
+content/04. Results_and_Discussion.md:16:greyscale
+content/04. Results_and_Discussion.md:20:grayscale
+content/04. Results_and_Discussion.md:20:grayscale
+content/04. Results_and_Discussion.md:22:batchs
+content/04. Results_and_Discussion.md:22:grayscale
+content/04. Results_and_Discussion.md:22:grayscale
+content/04. Results_and_Discussion.md:22:valied
+content/04. Results_and_Discussion.md:26:lognormality
+content/04. Results_and_Discussion.md:26:porosities
+content/04. Results_and_Discussion.md:26:porosities
+content/04. Results_and_Discussion.md:26:porosities
+content/04. Results_and_Discussion.md:30:porosities
+content/04. Results_and_Discussion.md:32:lognormal
+content/04. Results_and_Discussion.md:32:lognormality
+content/04. Results_and_Discussion.md:36:lognormality
+content/04. Results_and_Discussion.md:38:lognormal
+content/04. Results_and_Discussion.md:38:lognormal
+content/04. Results_and_Discussion.md:38:lognormality
+content/04. Results_and_Discussion.md:38:porosities
+content/04. Results_and_Discussion.md:42:lognormal
+content/04. Results_and_Discussion.md:42:porosities
+content/04. Results_and_Discussion.md:46:EDA
+content/04. Results_and_Discussion.md:50:SEM
+content/04. Results_and_Discussion.md:52:Portlandite
+content/04. Results_and_Discussion.md:58:Porosities
+content/04. Results_and_Discussion.md:67:dataset
+content/04. Results_and_Discussion.md:71:dataset
+content/04. Results_and_Discussion.md:73:dataset
+content/04. Results_and_Discussion.md:77:dataset
+content/04. Results_and_Discussion.md:79:overfitting
+content/04. Results_and_Discussion.md:79:RMSE
+content/04. Results_and_Discussion.md:79:RMSE
+content/04. Results_and_Discussion.md:83:RMSE
+content/04. Results_and_Discussion.md:85:datasets
+content/04. Results_and_Discussion.md:85:datasets
+content/04. Results_and_Discussion.md:85:porosities
+content/04. Results_and_Discussion.md:85:SEM
+content/04. Results_and_Discussion.md:89:datasets
+content/04. Results_and_Discussion.md:89:porosities
+content/04. Results_and_Discussion.md:91:anticorrelated
+content/04. Results_and_Discussion.md:91:densification
+content/04. Results_and_Discussion.md:91:densification
+content/04. Results_and_Discussion.md:93:porosities
+content/04. Results_and_Discussion.md:95:porosities
+content/04. Results_and_Discussion.md:101:overfitting
+content/04. Results_and_Discussion.md:101:RMSE
+content/04. Results_and_Discussion.md:101:RMSE
+content/04. Results_and_Discussion.md:105:RMSE
+content/04. Results_and_Discussion.md:107:datasets
+content/04. Results_and_Discussion.md:107:datasets
+content/04. Results_and_Discussion.md:107:porosities
+content/04. Results_and_Discussion.md:107:SEM
+content/04. Results_and_Discussion.md:111:datasets
+content/04. Results_and_Discussion.md:111:porosities
+content/04. Results_and_Discussion.md:115:Appllication
+content/04. Results_and_Discussion.md:115:SEM
+content/04. Results_and_Discussion.md:117:porotity
+content/04. Results_and_Discussion.md:123:acuuracy
+content/04. Results_and_Discussion.md:123:dataset
+content/04. Results_and_Discussion.md:123:dataset
+content/04. Results_and_Discussion.md:123:datasets
+content/04. Results_and_Discussion.md:123:datasets
+content/04. Results_and_Discussion.md:123:imges
+content/04. Results_and_Discussion.md:127:datasets
+content/04. Results_and_Discussion.md:131:datasets
+content/04. Results_and_Discussion.md:133:approching
+content/04. Results_and_Discussion.md:133:datasets
 content/90.back-matter.md:3:Microstructural
 content/90.back-matter.md:3:Nedunuri
 content/90.back-matter.md:3:pozzolanic
