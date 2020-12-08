@@ -1,5 +1,6 @@
 acuuracy
 anticorrelated
+Appllication
 approching
 averge
 avoide
@@ -23,7 +24,7 @@ estimatetion
 faciliate
 freezed
 grayscale
-Greyscale
+greyscale
 Hossein
 Hu
 hydarted
@@ -48,9 +49,9 @@ Nedunuri
 overfitting
 physicochemical
 physiochemical
-porosimeter
+Porosimeter
 porosites
-porosities
+Porosities
 porotity
 Portlandite
 pozzolanic
