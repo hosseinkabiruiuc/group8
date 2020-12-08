@@ -36,11 +36,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/8547fb839e6937af7b7c4306724dc49e55adca7f/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/8cd7fdbde71da59e4c413b2db030939f38401571/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/8547fb839e6937af7b7c4306724dc49e55adca7f/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/8cd7fdbde71da59e4c413b2db030939f38401571/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/8547fb839e6937af7b7c4306724dc49e55adca7f/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/8cd7fdbde71da59e4c413b2db030939f38401571/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -66,9 +66,9 @@ manubot-requests-cache-path: ci/cache/requests-cache
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/8547fb839e6937af7b7c4306724dc49e55adca7f/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/8cd7fdbde71da59e4c413b2db030939f38401571/))
 was automatically generated
-from [hosseinkabiruiuc/group8@8547fb8](https://github.com/hosseinkabiruiuc/group8/tree/8547fb839e6937af7b7c4306724dc49e55adca7f)
+from [hosseinkabiruiuc/group8@8cd7fdb](https://github.com/hosseinkabiruiuc/group8/tree/8cd7fdbde71da59e4c413b2db030939f38401571)
 on December 8, 2020.
 </em></small>
 
@@ -152,17 +152,17 @@ To quntify porosity and other characterestics of images, including chemistry and
 
 Figs 7 and 8 represent the important role of assigning a correct threshold value for characterizing porosity. In other words, increasing the luminance (threshold) of images from a certain limit (i.e. i.e. 14 and 9 for batches 1 and 2, respectively) will result in the inclusion of dark hydration products (i.e. precialse or luminance), which has to be avoide. 
     
-<img src ="images/fig7.JPG" width =800>    
+<img src ="images/fig7.JPG" width =600>    
 
     Figure 7: dependence of batch1 porosity on the assigned luminance 
 
-<img src ="images/fig8.JPG" width =800> 
+<img src ="images/fig8.JPG" width =600> 
 
     Figure 8: dependence of batch1 porosity on the assigned luminance
 
 Therefore, luminance of images should be assigned carefully to realistically estimate porosity with minimum error. Fig 9 further illuminates dependence of image analysis on the assigned threshold. In this figure, the exact porosities of images found from ImageJ software are comapred with those estimated using EDA for both two batches. This comparison reveals that as long as the luminance is limited to 10, calculated porosities remain stable and accurate, while exceeding this limits results in over estimatetion of porosites. 
     
-<img src ="images/fig9.JPG" width =800> 
+<img src ="images/fig9.JPG" width =600> 
 
     Figure 9: matching estimated porosities with exact porosities for different threshold limits
 
@@ -180,7 +180,7 @@ As previously mentioned, greyscale SEM images are required to be considered for 
 
 To determine the robustness of image-based chemical analysis, a random image from batch1 is selected and characterized in Fig 10.
 
-<img src ="images/fig13.JPG" width =1100> 
+<img src ="images/fig13.JPG" width =750> 
 
     Figure 10: chemical analysis of greyscale SEM images
     
@@ -254,13 +254,13 @@ The images from baches 1 and 2 were analyzed to recognize if there is any data c
 
 18 shows how the distribution of greyscale values within the batch 1. 
 
-<img src ="images/histogram_batch1_combined.png" width =1100> 
+<img src ="images/histogram_batch1_combined.png" width =800> 
 
     Figure 18: left) histogram showing the grayscale value distribution of images in batch 1; right) the distribution of grayscale value of images in batch 1
 
 Also, fig 19 shows how the distribution of greyscale values within the batch 2.
 
-<img src ="images/histogram_batch2_combined.png" width =1100> 
+<img src ="images/histogram_batch2_combined.png" width =800> 
     
     Figure 19: left) histogram showing the grayscale value distribution of images in batch 2; right) the distribution of grayscale value of images in batch 2
 
@@ -290,13 +290,13 @@ By proving the lognormality of porosities in both batch 1 and 2, it is of intere
 
 Using EDA, different features for characterizing porosity are extracted and shown in Fig 23. However, is required to determine whether these features are capable of estimating porosity accurately.
 
-<img src ="images/fig17.JPG" width =1400> 
+<img src ="images/fig17.JPG" width =650> 
 
     Figure 23: Extracting features (physical and chemical) from SEM images using image analysis
     
 Considering Fig 24, only Calcium Silicate Hydrate (C-S-H), Portlandite (C-H), and Angularity features have strong correlation, i.e. either positive or negative, with porosity. Consequently, these features are likely to be predictive of pore volume fraction for use in Artificial Neural Network.  
 
-<img src ="images/fig18.JPG" width =1400> 
+<img src ="images/fig18.JPG" width =650> 
 
     Figure 24: SNS heatmap of correlations between features extracted using image analysis
 
