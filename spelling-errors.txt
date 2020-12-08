@@ -22,7 +22,7 @@ enahnce
 estimatetion
 faciliate
 freezed
-grayscale
+Grayscale
 Greyscale
 Hossein
 Hu
@@ -50,7 +50,7 @@ physicochemical
 physiochemical
 porosimeter
 porosites
-Porosities
+porosities
 porotity
 Portlandite
 pozzolanic

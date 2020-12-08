@@ -36,11 +36,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/8cd7fdbde71da59e4c413b2db030939f38401571/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/58e54dfe9f370b2e090052fe1cfa2ceacb7b0e71/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/8cd7fdbde71da59e4c413b2db030939f38401571/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/58e54dfe9f370b2e090052fe1cfa2ceacb7b0e71/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/8cd7fdbde71da59e4c413b2db030939f38401571/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/58e54dfe9f370b2e090052fe1cfa2ceacb7b0e71/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -58,25 +58,6 @@ manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
 ...
-
-
-
-
-
-
-<small><em>
-This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/8cd7fdbde71da59e4c413b2db030939f38401571/))
-was automatically generated
-from [hosseinkabiruiuc/group8@8cd7fdb](https://github.com/hosseinkabiruiuc/group8/tree/8cd7fdbde71da59e4c413b2db030939f38401571)
-on December 8, 2020.
-</em></small>
-
-## Authors
-
-
-
-
 
 # CEE 498 Project: Characterization of Porosity in Cement Paste Matrix
 
