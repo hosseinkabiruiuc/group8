@@ -49,7 +49,7 @@ Nedunuri
 overfitting
 physicochemical
 physiochemical
-Porosimeter
+porosimeter
 porosites
 Porosities
 porotity

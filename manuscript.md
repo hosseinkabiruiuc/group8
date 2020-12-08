@@ -37,11 +37,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/f2fd08979a0a5a1eebc7171db4ac0f7d8f9b19d5/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/ad2435e554aaae9dadac7124ed2feddcb74781bc/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/f2fd08979a0a5a1eebc7171db4ac0f7d8f9b19d5/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/ad2435e554aaae9dadac7124ed2feddcb74781bc/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/f2fd08979a0a5a1eebc7171db4ac0f7d8f9b19d5/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/ad2435e554aaae9dadac7124ed2feddcb74781bc/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -67,9 +67,9 @@ manubot-requests-cache-path: ci/cache/requests-cache
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/f2fd08979a0a5a1eebc7171db4ac0f7d8f9b19d5/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/ad2435e554aaae9dadac7124ed2feddcb74781bc/))
 was automatically generated
-from [hosseinkabiruiuc/group8@f2fd089](https://github.com/hosseinkabiruiuc/group8/tree/f2fd08979a0a5a1eebc7171db4ac0f7d8f9b19d5)
+from [hosseinkabiruiuc/group8@ad2435e](https://github.com/hosseinkabiruiuc/group8/tree/ad2435e554aaae9dadac7124ed2feddcb74781bc)
 on December 8, 2020.
 </em></small>
 
@@ -82,16 +82,18 @@ on December 8, 2020.
 # CEE 498 Project: Characterization of Porosity in Cement Paste Matrix
 
 
-Faisal Qadri, PhD Student, Construction Materials Group, University of Illinois
-Hossein Kabir, PhD Student, Construction Materials Group, University of Illinois
-Tianshu Xiao, MS Student, Construction Management, University of Illinois
+### Faisal Qadri, PhD Student, Construction Materials Group, University of Illinois
+
+### Hossein Kabir, PhD Student, Construction Materials Group, University of Illinois
+
+### Tianshu Xiao, MS Student, Construction Management, University of Illinois
 
 
-## Abstract
+# Abstract
 
 This research investigates applicability of image-based analysis to quantify and classify porosities in grayscale scanning electron microscopy (SEM) images, made from polished thin section of hydrated cement beams. Within the past decades, mercury intrusion porosimeter (MIP) technique has been used to measure pore volume fraction in cement-based matrices. However, MIP method was found to overestimate porosity as it is incapable of quantifying disconnected pores. Therefore, it is of interest to determine whether image analysis coupled with Artificial Neural Network (ANN) or Convolutional Neural Network (CNN) could characterize porosity. Accordingly, images pre-analyzed by ImageJ commercial software are used to calibrate the python code. The calibrated model was used for Exploratory Data Analysis (EDA) for feature engineering. The extracted features, which are likely to be predictive of porosity, are used to train the employed machine learning models. Results of the present study revealed the applicability of ANN for estimating porosity based on physical properties of pores and chemistry of hydrates. Also, CNN is found to be an efficient way of classifying SEM images having different pore volume fraction. The present research has the potential to be used in future to predict the remaining service life and the physicochemical properties of the cement matrix.
 
-#### Keywords: 
+## Keywords: 
 Scanning Electron Microscopy (SEM), Mercury Intrusion Porosimeter (MIP), Artificial Neural Network (ANN), Convolutional Neural Network (CNN), Exploratory Data Analysis (EDA), porosity
 
 
