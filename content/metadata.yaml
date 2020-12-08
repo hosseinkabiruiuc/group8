@@ -2,10 +2,25 @@
 title: "Pore in Concrete-Group8"
 lang: en-US
 authors:
+
+  - github: Faisal-Qadri
+    name: Faisal Qadri
+    initials: FQ
+    email: fqadri2@illinois.edu
+    affiliations:
+      - Department of Civil Engineering, University of Illinois
+
   - github: hosseinkabiruiuc
     name: Hossein Kabir
     initials: HK
     email: hossein.kabir@outlook.com
+    affiliations:
+      - Department of Civil Engineering, University of Illinois
+      
+    - github: xts1997
+    name: Tianshu Xiao
+    initials: HK
+    email: tx2@illinois.edu
     affiliations:
       - Department of Civil Engineering, University of Illinois
     
