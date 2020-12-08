@@ -106,7 +106,6 @@ content/03.Methods.md:57:porosities
 content/03.Methods.md:57:porosities
 content/03.Methods.md:63:greyscale
 content/03.Methods.md:63:SEM
-content/03.Methods.md:66:Sulphur
 content/03.Methods.md:75:greyscale
 content/03.Methods.md:75:SEM
 content/03.Methods.md:89:brucite
@@ -129,6 +128,87 @@ content/03.Methods.md:123:hyperparameters
 content/03.Methods.md:123:hyperparameters
 content/03.Methods.md:128:hyperparameters
 content/03.Methods.md:130:hyperparameters
+content/04. Results_and_Discussion.md:5:dataset
+content/04. Results_and_Discussion.md:5:EDA
+content/04. Results_and_Discussion.md:6:Grayscale
+content/04. Results_and_Discussion.md:7:baches
+content/04. Results_and_Discussion.md:10:greyscale
+content/04. Results_and_Discussion.md:14:grayscale
+content/04. Results_and_Discussion.md:14:grayscale
+content/04. Results_and_Discussion.md:16:greyscale
+content/04. Results_and_Discussion.md:20:grayscale
+content/04. Results_and_Discussion.md:20:grayscale
+content/04. Results_and_Discussion.md:22:batchs
+content/04. Results_and_Discussion.md:22:grayscale
+content/04. Results_and_Discussion.md:22:grayscale
+content/04. Results_and_Discussion.md:22:valied
+content/04. Results_and_Discussion.md:26:lognormality
+content/04. Results_and_Discussion.md:26:porosities
+content/04. Results_and_Discussion.md:26:porosities
+content/04. Results_and_Discussion.md:26:porosities
+content/04. Results_and_Discussion.md:30:porosities
+content/04. Results_and_Discussion.md:32:lognormal
+content/04. Results_and_Discussion.md:32:lognormality
+content/04. Results_and_Discussion.md:36:lognormality
+content/04. Results_and_Discussion.md:38:lognormal
+content/04. Results_and_Discussion.md:38:lognormal
+content/04. Results_and_Discussion.md:38:lognormality
+content/04. Results_and_Discussion.md:38:porosities
+content/04. Results_and_Discussion.md:42:lognormal
+content/04. Results_and_Discussion.md:42:porosities
+content/04. Results_and_Discussion.md:46:EDA
+content/04. Results_and_Discussion.md:50:SEM
+content/04. Results_and_Discussion.md:52:Portlandite
+content/04. Results_and_Discussion.md:58:Porosities
+content/04. Results_and_Discussion.md:67:dataset
+content/04. Results_and_Discussion.md:71:dataset
+content/04. Results_and_Discussion.md:73:dataset
+content/04. Results_and_Discussion.md:77:dataset
+content/04. Results_and_Discussion.md:79:overfitting
+content/04. Results_and_Discussion.md:79:RMSE
+content/04. Results_and_Discussion.md:79:RMSE
+content/04. Results_and_Discussion.md:83:RMSE
+content/04. Results_and_Discussion.md:85:datasets
+content/04. Results_and_Discussion.md:85:datasets
+content/04. Results_and_Discussion.md:85:porosities
+content/04. Results_and_Discussion.md:85:SEM
+content/04. Results_and_Discussion.md:89:datasets
+content/04. Results_and_Discussion.md:89:porosities
+content/04. Results_and_Discussion.md:91:anticorrelated
+content/04. Results_and_Discussion.md:91:densification
+content/04. Results_and_Discussion.md:91:densification
+content/04. Results_and_Discussion.md:93:porosities
+content/04. Results_and_Discussion.md:95:porosities
+content/04. Results_and_Discussion.md:101:overfitting
+content/04. Results_and_Discussion.md:101:RMSE
+content/04. Results_and_Discussion.md:101:RMSE
+content/04. Results_and_Discussion.md:105:RMSE
+content/04. Results_and_Discussion.md:107:datasets
+content/04. Results_and_Discussion.md:107:datasets
+content/04. Results_and_Discussion.md:107:porosities
+content/04. Results_and_Discussion.md:107:SEM
+content/04. Results_and_Discussion.md:111:datasets
+content/04. Results_and_Discussion.md:111:porosities
+content/04. Results_and_Discussion.md:115:Appllication
+content/04. Results_and_Discussion.md:115:SEM
+content/04. Results_and_Discussion.md:117:porotity
+content/04. Results_and_Discussion.md:123:acuuracy
+content/04. Results_and_Discussion.md:123:dataset
+content/04. Results_and_Discussion.md:123:dataset
+content/04. Results_and_Discussion.md:123:datasets
+content/04. Results_and_Discussion.md:123:datasets
+content/04. Results_and_Discussion.md:123:imges
+content/04. Results_and_Discussion.md:127:datasets
+content/04. Results_and_Discussion.md:131:datasets
+content/04. Results_and_Discussion.md:133:approching
+content/04. Results_and_Discussion.md:133:datasets
+content/05.Conclusions.md:6:densification
+content/05.Conclusions.md:8:porosities
+content/05.Conclusions.md:8:SEM
+content/05.Conclusions.md:9:SEM
+content/05.Conclusions.md:11:physicochemical
+content/05.Conclusions.md:11:tortuosity
+content/06.Acknowledgements.md:2:MRL
 content/90.back-matter.md:3:Microstructural
 content/90.back-matter.md:3:Nedunuri
 content/90.back-matter.md:3:pozzolanic
