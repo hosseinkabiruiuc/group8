@@ -48,9 +48,9 @@ Nedunuri
 overfitting
 physicochemical
 physiochemical
-porosimeter
+Porosimeter
 porosites
-porosities
+Porosities
 porotity
 Portlandite
 pozzolanic

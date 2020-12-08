@@ -36,11 +36,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/58e54dfe9f370b2e090052fe1cfa2ceacb7b0e71/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/58e54dfe9f370b2e090052fe1cfa2ceacb7b0e71/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/58e54dfe9f370b2e090052fe1cfa2ceacb7b0e71/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -58,6 +58,25 @@ manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
 ...
+
+
+
+
+
+
+<small><em>
+This manuscript
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82/))
+was automatically generated
+from [hosseinkabiruiuc/group8@acc26fc](https://github.com/hosseinkabiruiuc/group8/tree/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82)
+on December 8, 2020.
+</em></small>
+
+## Authors
+
+
+
+
 
 # CEE 498 Project: Characterization of Porosity in Cement Paste Matrix
 
@@ -235,13 +254,13 @@ The images from baches 1 and 2 were analyzed to recognize if there is any data c
 
 18 shows how the distribution of greyscale values within the batch 1. 
 
-<img src ="images/histogram_batch1_combined.png" width =800> 
+<img src ="images/histogram_batch1_combined.png" width =1100> 
 
     Figure 18: left) histogram showing the grayscale value distribution of images in batch 1; right) the distribution of grayscale value of images in batch 1
 
 Also, fig 19 shows how the distribution of greyscale values within the batch 2.
 
-<img src ="images/histogram_batch2_combined.png" width =800> 
+<img src ="images/histogram_batch2_combined.png" width =1100> 
     
     Figure 19: left) histogram showing the grayscale value distribution of images in batch 2; right) the distribution of grayscale value of images in batch 2
 
@@ -271,13 +290,13 @@ By proving the lognormality of porosities in both batch 1 and 2, it is of intere
 
 Using EDA, different features for characterizing porosity are extracted and shown in Fig 23. However, is required to determine whether these features are capable of estimating porosity accurately.
 
-<img src ="images/fig17.JPG" width =650> 
+<img src ="images/fig17.JPG" width =1400> 
 
     Figure 23: Extracting features (physical and chemical) from SEM images using image analysis
     
 Considering Fig 24, only Calcium Silicate Hydrate (C-S-H), Portlandite (C-H), and Angularity features have strong correlation, i.e. either positive or negative, with porosity. Consequently, these features are likely to be predictive of pore volume fraction for use in Artificial Neural Network.  
 
-<img src ="images/fig18.JPG" width =650> 
+<img src ="images/fig18.JPG" width =1400> 
 
     Figure 24: SNS heatmap of correlations between features extracted using image analysis
 

@@ -34,9 +34,9 @@
   <meta name="citation_fulltext_html_url" content="https://hosseinkabiruiuc.github.io/group8/" />
   <meta name="citation_pdf_url" content="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/58e54dfe9f370b2e090052fe1cfa2ceacb7b0e71/" />
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/58e54dfe9f370b2e090052fe1cfa2ceacb7b0e71/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/58e54dfe9f370b2e090052fe1cfa2ceacb7b0e71/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -45,6 +45,14 @@
   <!-- end Manubot generated metadata -->
 </head>
 <body>
+<p><small><em>
+This manuscript
+(<a href="https://hosseinkabiruiuc.github.io/group8/v/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82/">permalink</a>)
+was automatically generated
+from <a href="https://github.com/hosseinkabiruiuc/group8/tree/acc26fc2c4f13865d809ab66d9d8fa42ba1b4c82">hosseinkabiruiuc/group8@acc26fc</a>
+on December 8, 2020.
+</em></small></p>
+<h2 id="authors">Authors</h2>
 <h1 id="cee-498-project-characterization-of-porosity-in-cement-paste-matrix">CEE 498 Project: Characterization of Porosity in Cement Paste Matrix</h1>
 <h3 id="faisal-qadri-phd-student-construction-materials-group-university-of-illinois">Faisal Qadri, PhD Student, Construction Materials Group, University of Illinois</h3>
 <h3 id="hossein-kabir-phd-student-construction-materials-group-university-of-illinois">Hossein Kabir, PhD Student, Construction Materials Group, University of Illinois</h3>
@@ -133,10 +141,10 @@ Due to having a very limited number of images, we had to divide porosity into ca
 <p>## 3.2 Identifying Grayscale Value Distribution</p>
 <p>The images from baches 1 and 2 were analyzed to recognize if there is any data could be extracted.</p>
 <p>18 shows how the distribution of greyscale values within the batch 1.</p>
-<p><img src ="images/histogram_batch1_combined.png" width =800></p>
+<p><img src ="images/histogram_batch1_combined.png" width =1100></p>
 <pre><code>Figure 18: left) histogram showing the grayscale value distribution of images in batch 1; right) the distribution of grayscale value of images in batch 1</code></pre>
 <p>Also, fig 19 shows how the distribution of greyscale values within the batch 2.</p>
-<p><img src ="images/histogram_batch2_combined.png" width =800></p>
+<p><img src ="images/histogram_batch2_combined.png" width =1100></p>
 <pre><code>Figure 19: left) histogram showing the grayscale value distribution of images in batch 2; right) the distribution of grayscale value of images in batch 2</code></pre>
 <p>Interestingly, the distributions of grayscale values for both batchs 1 and 2 are alike the grayscale value distribution distribution in fig 4. This confirms that the data acquired is reasonable and is valied to be analyzed.</p>
 <p>## 3.3 Estimating Porosity Distribution</p>
@@ -151,10 +159,10 @@ Due to having a very limited number of images, we had to divide porosity into ca
 <pre><code>Figure 22: Matching lognormal distribution of porosities for batch1 and 2</code></pre>
 <h2 id="feature-engineering">3.4 Feature Engineering</h2>
 <p>Using EDA, different features for characterizing porosity are extracted and shown in Fig 23. However, is required to determine whether these features are capable of estimating porosity accurately.</p>
-<p><img src ="images/fig17.JPG" width =650></p>
+<p><img src ="images/fig17.JPG" width =1400></p>
 <pre><code>Figure 23: Extracting features (physical and chemical) from SEM images using image analysis</code></pre>
 <p>Considering Fig 24, only Calcium Silicate Hydrate (C-S-H), Portlandite (C-H), and Angularity features have strong correlation, i.e. either positive or negative, with porosity. Consequently, these features are likely to be predictive of pore volume fraction for use in Artificial Neural Network.</p>
-<p><img src ="images/fig18.JPG" width =650></p>
+<p><img src ="images/fig18.JPG" width =1400></p>
 <pre><code>Figure 24: SNS heatmap of correlations between features extracted using image analysis</code></pre>
 <h2 id="application-of-ann-for-estimating-porosities-based-on-cement-chemistry-c-s-h-c-h-model-i">3.5 Application of ANN for estimating Porosities based on Cement Chemistry: C-S-H &amp; C-H (Model I)</h2>
 <p>In this step, extracted features represents chemical properties of cement and are highly correlated with pore volume fraction, i.e C-S-H and C-H. These features are selected to be possibly predictive of porosity. Considering Fig 25, it could be realized that the correlations between porosity and C-S-H or C-H could be both
