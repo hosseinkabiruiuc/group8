@@ -22,7 +22,7 @@ enahnce
 estimatetion
 faciliate
 freezed
-Grayscale
+grayscale
 Greyscale
 Hossein
 Hu
@@ -48,7 +48,7 @@ Nedunuri
 overfitting
 physicochemical
 physiochemical
-Porosimeter
+porosimeter
 porosites
 porosities
 porotity

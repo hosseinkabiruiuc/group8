@@ -37,11 +37,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://hosseinkabiruiuc.github.io/group8/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/4c4760140656c023c07d7ee2e462aa2ed44acee2/" />
+  <link rel="alternate" type="text/html" href="https://hosseinkabiruiuc.github.io/group8/v/472842f5ded057ba9fa9736431e364d08e5ad751/" />
 
-  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/4c4760140656c023c07d7ee2e462aa2ed44acee2/" />
+  <meta name="manubot_html_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/472842f5ded057ba9fa9736431e364d08e5ad751/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/4c4760140656c023c07d7ee2e462aa2ed44acee2/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://hosseinkabiruiuc.github.io/group8/v/472842f5ded057ba9fa9736431e364d08e5ad751/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -67,9 +67,9 @@ manubot-requests-cache-path: ci/cache/requests-cache
 
 <small><em>
 This manuscript
-([permalink](https://hosseinkabiruiuc.github.io/group8/v/4c4760140656c023c07d7ee2e462aa2ed44acee2/))
+([permalink](https://hosseinkabiruiuc.github.io/group8/v/472842f5ded057ba9fa9736431e364d08e5ad751/))
 was automatically generated
-from [hosseinkabiruiuc/group8@4c47601](https://github.com/hosseinkabiruiuc/group8/tree/4c4760140656c023c07d7ee2e462aa2ed44acee2)
+from [hosseinkabiruiuc/group8@472842f](https://github.com/hosseinkabiruiuc/group8/tree/472842f5ded057ba9fa9736431e364d08e5ad751)
 on December 8, 2020.
 </em></small>
 
@@ -392,7 +392,7 @@ Based on the present machine learning analysis, the following conclusions could 
 The built models in this project are only the base for further works in the future. These models will be developed further to solve real problems in the infrastructure field. Other information in conjunction with porosity labels will be collected such as freezing and thawing resistance, scaling, thermal cracking and other durability issues. Then, based on these information, a model will be able to predict the remaining service life and the physicochemical properties based on the pore structure characteristics (porosity, tortuosity, connectivity, and pore size distribution), and the chemical compositions within the cement matrix as well. However, it is willing that model will be able to suggest early solutions to rehabilitate infrastructure and prevent further deterioration, which in turn saves money.
 
 
-## Acknowledgements
+# 5. Acknowledgements
 The authors would like to acknowledge partial support from University of Illinois Material Research Laboratory (MRL).
 
 
